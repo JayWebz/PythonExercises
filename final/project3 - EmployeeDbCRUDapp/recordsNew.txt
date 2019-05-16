@@ -1,0 +1,5 @@
+Sandor Clegane 7112030 ft 60000 
+Petyr Baelish 2124123 ft 48000 
+Arya Stark 3213030 pt 1000 
+Theon Greatjoy 1231010 hourly 25 
+Jon Snow 454 ft 64000 
