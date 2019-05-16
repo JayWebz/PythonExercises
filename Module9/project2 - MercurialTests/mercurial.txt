@@ -1,0 +1,18 @@
+1. What is the changes id of this change?
+63:3b783ccf8a3c
+
+2. What do you notice about the short and long revision ids?
+short version: 3b783ccf8a3c
+long version:  3b783ccf8a3c917362b7d9766bc2b5cadad01553
+
+The short version is identical to the long version for the length of the short version. After that the long version continues on for 28 additional characters.
+After a little research, it looks like the reason for this is because the 40 digit hex number is unwieldy so Mercurial usually just prints the first 12 to create a short form id.(1) The short version is also known as the revision number. It’s advised not to use revision numbers to denote change sets with others, as those numbers are very unlikely to refer to the same thing in another’s repo.(2) Use the full change set ID instead. 
+
+(1)https://www.mercurial-scm.org/wiki/ChangeSet
+(2)https://www.mercurial-scm.org/wiki/RevisionNumber 
+
+3. Add and commit a .py file and record it’s changes id (short version)
+64:a8706d0fbb14
+
+4. What is the commit message of revision 75d1ded2a7ee?
+Save the Programs directory
